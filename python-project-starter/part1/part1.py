@@ -157,7 +157,7 @@ def process_weather(forecast_file):
         
         # print()
 
-        processed_weather = f"-------- {converted_date} --------\nMinimum Temperature: {min_temp}°C\nMaximum Temperature: {max_temp}°C\nDaytime: {day_description}\n    Chance of rain: {day_rain_prob}%\nNighttime: {night_description}\n    Chance of rain: {night_rain_prob}%\n\n"
+        processed_weather = f"-------- {converted_date} --------\nMinimum Temperature: {min_temp}°C\nMaximum Temperature: {max_temp}°C\nDaytime: {day_description}\n    Chance of rain:  {day_rain_prob}%\nNighttime: {night_description}\n    Chance of rain:  {night_rain_prob}%\n\n"
 
         final_output = final_output + processed_weather
 
